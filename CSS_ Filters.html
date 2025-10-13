@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> Css Filters/Effects </title>
+        <style>
+        h1{
+            color:transparent;
+            text-align:center;
+            background:linear-gradient(rgb(160, 158, 158), rgb(47, 45, 45));
+            -webkit-background-clip : text;}
+        h2{
+            text-align: center;
+            color: transparent;
+            background:linear-gradient(blue,rgb(167, 247, 6));
+            -webkit-background-clip: text;
+        }
+        .parent{
+            width:100%;
+            height:300px;
+            background:linear-gradient(violet, indigo,blue, green, yellow, orange, red);}
+        .img{
+            padding-bottom: 10px;
+            filter: blur(2px);
+            filter: contrast(13);
+            filter: opacity(10px);
+        }
+        .img2{
+            filter: invert();
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Css Filters/Effects</h1>
+        <h2>Css Filter check</h2>
+        <img class = "img2"srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDd6tDtpi646y5cqhRfDBfzLEfBH6DC5Keiw&s" alt="test image">
+        <img class = "img"srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDd6tDtpi646y5cqhRfDBfzLEfBH6DC5Keiw&s" alt="test image">
+
+        <div class="parent"></div>
+    </body>
+</html>

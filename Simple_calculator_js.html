@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> Simple Calculator in Js</title>
+        <style>
+            h1{
+                text-align: center;
+                color: transparent;
+                background: linear-gradient(Red, black);
+                -webkit-background-clip: text;
+            }
+            script{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1><b>SIMPLE CALCULATOR</b></h><br><br>
+        <script>
+            let a = Number(prompt("Enter the 1st Digit: "));
+            let b = Number(prompt("Enter the 2nd Digit: "));
+            document.writeln(`Number-1 :${a}`,"<br>");
+            document.writeln(`Number-2 :${b}`,"<br>");
+            let add = (a,b)=>{return a+b};
+            document.writeln(`Sum(+) of ${a} and ${b} is: `,add(a,b),"<br>");
+            let sub = (a,b)=>{return a-b};
+            document.writeln(`Subtraction(-) of ${a} and ${b} is: `,sub(a,b),"<br>");
+            let mul = (a,b)=>{return a*b};
+            document.writeln(`Multiplication(*) of ${a} and ${b} is: `,mul(a,b),"<br>");
+            let div = (a,b)=>{return a/b};
+            document.writeln(`Division(/) of ${a} and ${b} is: `,div(a,b),"<br>");
+            let mod = (a,b)=>{return a%b};
+            document.writeln(`Modulus(%) of ${a} and ${b} is: `,mod(a,b),"<br>");
+        </script>
+    </body>
+</html>

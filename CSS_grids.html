@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> CSS Grids</title>
+        <style>
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                background: linear-gradient(to right ,red,rgb(8, 241, 55) );
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            .parent{
+                background:rgb(150, 5, 235);
+                /* display: grid; */
+                /* grid-template-columns:  100px 100px 100px ; */
+                padding: 10px;
+                gap: 10px;
+            }
+            .child{
+                text-align: center;
+                background:rgb(60, 19, 148);
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                line-height: 6;
+                box-shadow: 5px 3px 7px;
+            }
+            .child:hover{
+                background:pink;
+            }
+        </style>
+    </head>
+    <body>
+    <h1> Css Grids</h1>
+    <div class = "parent">
+        <div class = "child">1</div>
+        <div class = "child">2</div>
+        <div class = "child">3</div>
+        <div class = "child">4</div>
+        <div class = "child">5</div>
+        <div class = "child">6</div>
+    </div>
+        
+        
+    </body>
+</html>

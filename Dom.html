@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            DOM IN JS
+        </title>
+        <style>
+            h1{
+                text-align: left;
+                color: transparent;
+                background: linear-gradient(pink,black);
+                -webkit-background-clip: text;
+            }
+            p{
+                text-align: left;
+                color: transparent;
+                background: linear-gradient(red,blue);
+                -webkit-background-clip: text;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="head"> Hello DOM [Document Object Model] Who are you??</h1>
+        <button onclick="Text()"> CLICK </button>
+        <p id="para">I'm DOM in JS</p>
+        <button onclick="Para()"> Press</button>
+        <script>
+            function Text(){
+                const head = document.getElementById("head");
+                head.innerHTML = "I'm GOAT!!";
+                head.style.color="red";
+            };
+            function Para(){
+                const para = document.getElementById("para");
+                para.innerHTML = "I'm GOAT in Js";
+                para.style.color="green";
+            }
+        </script>
+    </body>
+</html>

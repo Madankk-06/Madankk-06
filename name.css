@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    background-color: bisque;
+    color: transparent;
+    background: linear-gradient(black,blue);
+    -webkit-background-clip: text;
+}
+h2{
+    text-align: center;
+}
+button{
+    margin-left: 740px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: none;
+}
+button:hover{
+    background-color: beige;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 250px;
+}

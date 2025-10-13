@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>
+            Css Flexbox
+        </title>
+        <style>
+            .log{
+                margin-right: 10px;
+                margin-top: 35px;
+                margin-bottom: 15px;
+                padding-right: 10px;
+                background-color:#4599FE;              
+                border: none;
+                border-radius: 8px;
+                text-align: center;
+                
+                
+            }
+            a{
+                text-decoration: none;
+                color: whitesmoke;
+            }
+            input{
+                margin-top: 35px;
+                margin-right: 90px; 
+                margin-bottom: 6px;
+                border-radius: 12px;
+                padding-left:10px ;
+                width: 400px;
+                height: 50px;
+                border: 1px solid black;
+                
+            }
+            input:hover{
+                background-color: grey;
+            }
+            .log:hover{
+                background-color: grey;
+            }
+
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                background: black;
+                padding: 1px;
+                margin-bottom:  20px;
+                
+            }
+            ul li{
+                padding: 10px;
+                list-style-type: none;
+                margin-top: 40px;
+                text-emphasis-color: solid black;
+                
+            }
+            h1{
+                padding-right: 300px;
+                padding-top: 10px;
+                padding-left: 20px;
+                margin-right: 10px;
+                color: white;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+                
+            }
+            body{
+                background-color: white;      
+            }
+            .b2{
+                color:transparent;
+                background: linear-gradient(#4599FE,black);
+                -webkit-background-clip: text;
+            }
+            .container1{
+                display: flex;
+                align-items: center;
+            }
+            .s1:hover{
+                transform: scale(1,1.1);
+            }
+            .s1{
+                background-size: cover;
+                background-position: center;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .s2:hover{
+                transform: scale(1,1.1);
+            }
+            .s3:hover{
+                transform: scale(1,1.1);
+            }
+            .s4:hover{
+                transform: scale(1,1.1);
+            }
+            .c1:hover{
+                transform: scale(1,1.1);
+            }
+            .c2:hover{
+                transform: scale(1,1.1);
+            }
+            .c3:hover{
+                transform: scale(1,1.1);
+            }
+            .c4:hover{
+                transform: scale(1,1.1);
+
+            }
+            .s2{
+                background-size: cover;
+                background-position: left;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .s3{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .s4{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .container2{
+                display: flex;
+                align-items: center;
+            }
+            .c1{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .c2{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .c3{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .c4{
+                background-size: cover;
+                background-position: top;
+                border-radius: 50px;
+                transition: background-image 0.3s ease;
+                width: 350px;
+                height: 200px;
+            }
+            .b3{
+                color:transparent;
+                background: linear-gradient(#4599FE,black);
+                -webkit-background-clip: text;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <img src="https://i.pinimg.com/originals/8b/b1/84/8bb184b137c8858d430b5e8555795f31.png?nii=t">
+            <h1> BMW MOTORAD</h1>
+            <input type="text" placeholder="Search">
+            <button class = "log"><a href="https://login.bmwusa.com/oneid/#/login?client=usahub&brand=bmw&country=US&language=en&scope=authenticate_user&response_type=code&redirect_uri=https://mybmw.bmwusa.com/sso&state=%2Fterms%2Faccept?language=en">Login</a></button>
+            <li><a href="https://www.bmw-motorrad.in/en/home.html#/filter-all">HOME</a></li>
+            <li><a href="https://www.bmw-motorrad.in/en/models/adventure/f450gs.html">CONCEPT</a></li>
+            <li><a href="https://www.bmw-motorrad.in/en/bmw-gallery.html">GALLERY</a></li>
+            <!--<li><select>
+                <option>Menu</option>
+                <option>Login</option>
+                <option>Contact</option>
+                <option>Location</option>
+                <option>Cources</option>
+            </select></li>-->
+        </ul>
+        <h3 class = "b2"> BMW MOTORING</h3>
+        <div class="container1">
+            <div><p><a href="https://www.bikewale.com/bmw-bikes/m-1000-rr/"><img class="s1" src="https://4kwallpapers.com/images/wallpapers/bmw-m-1000-rr-sports-bikes-5k-2023-white-background-3840x2160-8832.jpg"></a></p></div>
+            <div><p><a href="https://www.bikewale.com/bmw-bikes/s1000rr/"><img class="s2" src="https://www.hdwallpapers.in/download/grey_bmw_s1000rr_motorcycle_white_background_hd_bike-2560x1440.jpg"></a></p></div>
+            <div><img class="s3" src="https://4kwallpapers.com/images/walls/thumbs_3t/7968.jpg"></div>
+            <div><img class="s4" src="https://www.roadracingworld.com/wp-content/uploads/2024/10/M-1000-RR_1730308354-e1737138308207.jpg"></div>
+        </div><br><br>
+        <h3 class="b3"> BMW CARS</h3>
+        <div class="container2">
+            <div><img class="c1" src="https://www.shutterstock.com/image-vector/white-sedan-car-art-vector-600nw-2057551199.jpg"></div>
+            <div><img class="c2" src="https://4kwallpapers.com/images/wallpapers/bmw-x6-m50i-edition-black-vermilion-limited-edition-black-1920x1080-5983.jpg"></div>
+            <div><img class="c3" src="https://www.shutterstock.com/image-vector/luxury-premium-realistic-sedan-coupe-600nw-2263077435.jpg"></div>
+            <div><img class="c4" src="https://files.plytix.com/api/v1.1/file/public_files/pim/assets/ef/53/4f/5a/5a4f53eff035805d0553d2d8/images/f3/1e/b0/62/62b01ef3f6a5bbc2def6328f/Ny-BMW-X1-hybrid-fri.jpg"></div>
+
+            
+    </body>
+</html>

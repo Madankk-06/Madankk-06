@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Conditional statements in js</title>
+        <style>
+            h1{
+                text-align: center;
+                color: transparent;
+                background: linear-gradient(Red, black);
+                -webkit-background-clip: text;
+            }
+            script{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <h1>
+        Conditional statements in Js
+    </h1>
+    <script>
+        // let a = 20;
+        let a = Number(prompt("Enter a number to choose the day and type:  "));
+        // if(a!=20){
+        //     document.write("A is not 100");
+        //     console.log("A is 100");
+        // }else if(a==50){
+        //     document.write("A is False")
+        //     console.log("A is False")
+        // }else if(a>=50){
+        //     document.write("A is greater than 50");
+        //     console.log("A is greater than 50")
+        // }else{
+        //     document.write("A is not in range")
+        //     console.log("A is not in range")
+        // };
+
+
+        if(a>0){
+            document.write("The number is positive");
+        }else if(a<0){
+            document.write("The number is negative");
+        }else{
+            document.write("The number is ZERO");
+        };
+        
+        //Switch statements
+        //let s=Number(prompt("Enter the number: "));
+        switch(a){
+            case 1:
+                document.write(" Today is SUNDAY");
+                console.log("Today is SUNDAY");
+                break;
+            case 2:
+                document.write("Today is MONDAY");
+                console.log("Today is MONDAY");
+                break;
+            case 3:
+                document.write("Today is TUESDAY");
+                console.log("Today is TUESDAY");
+                break;
+            case 4:
+                document.write("Today is WEDNESDAY")
+                console.log("Today is WEDNESDAY")
+                break
+            case 5:
+                document.write("Today is THURSDAY")
+                console.log("Today is THURSDAY")
+                break
+            case 6:
+                document.write("Today is FRIDAY")
+                console.log("Today is FRIDAY")
+                break
+            case 7:
+                document.write("Today is SATURDAY")
+                console.log("Today is SATURDAY")
+                break
+        };
+
+        //LOOPING STATEMENTS IN JS
+        // for(let r = 0; r < 5; r++ ){
+        //     document.write("Value of FOR LOOP : ",r,"<br>");
+        //     console.log("Value of FOR LOOP : ",r,"<br>");
+        // };
+        // let s = 0;
+        // while(s < 5){
+        //     console.log("Value of DO WHILE is : ",s);
+        //     document.write("Value of WHILE LOOP: ",s,"<br>")
+        //     s++;
+        // };
+        // let k=0
+        // do{
+        //     console.log("Value of DO WHILE is : ",k);
+        //     document.write("Value of DO WHILE LOOP: ",k,"<br>");
+        //     k++
+        // }while(k<5)
+        let p=Number(prompt("Enter the Principle amount: "));
+        let t=Number(prompt("Enter the Time Period: "));
+        let r=Number(prompt("Enter the Rate of Interest: "));
+
+        let total=(p*t*r)/100
+        document.writeln("Total interest is: ",total);
+    </script>
+</html>

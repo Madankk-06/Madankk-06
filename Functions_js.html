@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Functions in js</title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <h1>Functions in Js</h1>
+        <script>
+
+            //normal function
+            // function Hello(){
+            //     document.write("Normal function")
+            // };
+            // Hello();
+            // document.writeln(Hello());
+
+            // // Parameterized Fun in js
+            // function Sum(a,b){
+            //     return a+b;
+            // };
+            // document.write(Sum(11,100));
+            
+            
+            // let Add = ()=>{docment.write("Arrow function")};
+            // Add();
+            // document.write(Add());
+            
+            
+            // let Addition = (n1,n2)=>{return n1+n2};
+            // Addition();
+            // document.writeln(Addition(100,200));
+
+            //Arrow function in JS
+            let Add = () =>{document.writeln("Arrow")};
+            Add();
+            //with par arrow fun
+            let n1 = Number(prompt("Enter the n1 : "))
+            let n2 = Number(prompt("Enter the n2 : "))
+            let Addition= (n1,n2) =>{ return n1+n2};
+            document.writeln(Addition(n1,n2));
+
+            
+        </script>
+    </body>
+</html>

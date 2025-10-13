@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>CSS ANIMATION</title>
+        <style>
+            h2{
+                color: wheat;
+                text-align: center;
+                text-decoration: underline rgb(228, 97, 119) solid;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            h1{
+                text-align: center;
+                color: rgb(30, 224, 117);
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+                margin-top: 70px;
+                gap: 80px;
+                
+            }
+            .shape{
+                height: 150px;
+                width: 150px;
+                position: relative;
+                animation: move 3s infinite;
+
+            }
+            .circle{
+                background-color: bisque;
+                border-radius: 50%;
+            }
+            .rectangle{
+                background-color: aqua;
+                width: 220;
+                height: 130;
+            }
+            .square{
+                background-color: rgb(216, 174, 118);
+                transform: Matric(45deg);
+                
+            }
+            .diamond{
+                background-color: rgb(227, 118, 189);
+                transform: rotate(45deg);
+
+            }
+            .oval{
+                background-color: rgb(150, 245, 150);
+                border-radius: 50% / 50%;
+                width: 90px;
+                height: 150px;
+                transform: rotate(20px);
+            }
+            @keyframes move {
+                0% { left: 0px; }
+                50% { left: 150px; background: rgb(251, 2, 2); }
+                100%{ left: 0px; background: rgb(14, 8, 1); }
+                50%{ left: 0x;background: rgb(250, 143, 3);}
+                
+            }
+            body{
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><b>CSS ANIMATION<b></h1>
+        <h2>Shapes</h2>
+        <div class="container">
+            <div class="Shape circle"></div>
+            <div class="Shape rectangle"></div>
+            <div class="Shape square"></div>
+            <div class="Shape oval"></div>
+            <div class="Shape diamond"></div>
+        </div>
+    </body>
+</html>

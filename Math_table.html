@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Maths tables in js</title>
+        <style>
+            body{
+                text-align: center;
+                background-color: rgb(210, 236, 245);
+                margin-top: 10px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin: 200px;
+                
+            }
+            h1{
+                color: darkblue;
+                margin-bottom: 20px;
+                font-style: bold;
+                background: greenyellow;
+
+            }
+            script{
+                font-size: 40px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MATHS TABLES IN JS</h1>
+        <script> 
+            const a=Number(prompt("Enter the number for Tables: "))
+            for(i=1;i<=10;i++){
+                const Num=a*i;
+                document.write(`${a} X ${i} = ${Num}`,"<br>");
+                console.log(`${a} X ${i} = ${Num}`);
+            };
+            
+        </script>
+    </body>
+</html>

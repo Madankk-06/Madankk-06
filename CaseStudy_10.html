@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            CONDITIONAL STATEMENTS IN JS
+        </title>
+        <style>
+            h1{
+                text-align: left;
+                color: transparent;
+                background: linear-gradient(Red,black);
+                -webkit-background-clip: text;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CONDITIONAL and SWITCH STATEMENTS IN JS</h1>
+    </body>
+    <script>
+        let a = Number(prompt("Enter the number for days and type: "));
+        if(a>0){
+            document.write(`<b>The number ${a} is POSITIVE `,"<br>")
+            console.log(`The number${a} is POSITIVE`,"<br>")
+            switch(a){
+            case 1:
+                document.write(" Today is SUNDAY","<br>");
+                console.log("Today is SUNDAY","<br>");
+                break;
+            case 2:
+                document.write("Today is MONDAY","<br>");
+                console.log("Today is MONDAY","<br>");
+                break;
+            case 3:
+                document.write("Today is TUESDAY","<br>");
+                console.log("Today is TUESDAY","<br>");
+                break;
+            case 4:
+                document.write("Today is WEDNESDAY","<br>")
+                console.log("Today is WEDNESDAY","<br>")
+                break
+            case 5:
+                document.write("Today is THURSDAY","<br>")
+                console.log("Today is THURSDAY","<br>")
+                break
+            case 6:
+                document.write("Today is FRIDAY","<br>")
+                console.log("Today is FRIDAY","<br>")
+                break
+            case 7:
+                document.write("Today is SATURDAY","<br>")
+                console.log("Today is SATURDAY","<br>")
+                break
+            };
+        }else if(a<0){
+            document.write(`The number ${a} is NEGATIVE`,"<br>")
+            console.log(`The number${a} is NEGATIVE`,"<br>")
+        }else{
+            document.write(`${a} is ZERO`,"<br>")
+            console.log(`${a} is ZERO`,"<br>")
+        }
+        
+    </script>
+    <body>
+        <h1>SIMPLE INTEREST</h1>
+    </body>
+    <script>
+        let p=Number(prompt("Principal amount : "))
+        let t=Number(prompt("Time period : "))
+        let r=Number(prompt("Rate of Interest : "))
+        let interest=(p*t*r)/100
+        document.writeln("Principal Amount : ",p,"<br>")
+        console.log("Principal Amount : ",p)
+        document.writeln("Time Period : ",t,"<br>")
+        console.log("Time period : ",t)
+        document.writeln("Rate of Interest : ",r,"<br>")
+        console.log("Rate of Interest : ",r)
+        document.writeln("The Simple interest is : ",interest,"<br>")
+        console.log("The Simple interest is : ",interest)
+    </script>
+</html>

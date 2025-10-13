@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Mental Health Crisis - Professional Infographic</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px 20px;
+        }
+
+        .infographic {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            padding: 80px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 64px;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            text-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .header .subtitle {
+            font-size: 26px;
+            color: #e0e0e0;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .header .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        /* Content Container */
+        .content {
+            padding: 70px 60px;
+            background: #fafafa;
+        }
+
+        /* Chart Sections */
+        .chart-section {
+            background: white;
+            margin-bottom: 50px;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .chart-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+
+        .chart-header {
+            margin-bottom: 40px;
+        }
+
+        .chart-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .chart-subtitle {
+            font-size: 16px;
+            color: #666;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .source-tag {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 8px 16px;
+            background: #f0f0f0;
+            border-radius: 20px;
+            font-size: 13px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        /* Chart 1: Pie Chart */
+        .pie-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .pie-chart {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            background: conic-gradient(
+                #e74c3c 0deg 51.43deg,
+                #ecf0f1 51.43deg 360deg
+            );
+            position: relative;
+            box-shadow: 0 15px 40px rgba(231, 76, 60, 0.3);
+            animation: pieRotate 1s ease-out;
+        }
+
+        @keyframes pieRotate {
+            from { transform: rotate(-90deg); }
+            to { transform: rotate(0deg); }
+        }
+
+        .pie-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .pie-number {
+            font-size: 72px;
+            font-weight: 900;
+            color: #e74c3c;
+            line-height: 1;
+        }
+
+        .pie-label {
+            font-size: 18px;
+            color: #555;
+            margin-top: 8px;
+            font-weight: 600;
+        }
+
+        .pie-stats {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            background: #e8f4f8;
+            transform: translateX(5px);
+        }
+
+        .stat-color {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .stat-info {
+            flex: 1;
+        }
+
+        .stat-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 5px;
+        }
+
+        .stat-desc {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Chart 2: Bar Chart */
+        .bar-chart {
+            margin-top: 40px;
+        }
+
+        .bar-item {
+            margin-bottom: 30px;
+        }
+
+        .bar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .bar-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+
+        .bar-value {
+            font-size: 18px;
+            font-weight: 800;
+            color: #e74c3c;
+        }
+
+        .bar-track {
+            width: 100%;
+            height: 60px;
+            background: #f0f0f0;
+            border-radius: 30px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 25px;
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+            transition: width 2s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bar-fill::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 200%; }
+        }
+
+        /* Chart 3: People Icons */
+        .icon-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 20px;
+        }
+
+        .person-icon {
+            width: 90px;
+            height: 90px;
+            transition: transform 0.3s ease;
+        }
+
+        .person-icon:hover {
+            transform: scale(1.15);
+        }
+
+        .icon-summary {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .summary-box {
+            flex: 1;
+            min-width: 250px;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .summary-number {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .summary-text {
+            font-size: 16px;
+            font-weight: 600;
+            opacity: 0.95;
+        }
+
+        /* Chart 4 & 6: Line Graphs */
+        .line-graph-container {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        /* Chart 5: World Map */
+        .map-wrapper {
+            text-align: center;
+            margin-top: 30px;
+            padding: 40px;
+            background: linear-gradient(135deg, #e0f7ff 0%, #d4edff 100%);
+            border-radius: 20px;
+        }
+
+        .map-legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .legend-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .legend-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .legend-color {
+            width: 100%;
+            height: 60px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .legend-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+        }
+
+        .legend-value {
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        /* Chart 7: Big Stat */
+        .big-stat-section {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            padding: 80px 50px;
+            text-align: center;
+            color: white;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .big-stat-section::before {
+            content: '💰';
+            position: absolute;
+            font-size: 300px;
+            opacity: 0.1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .big-stat-number {
+            font-size: 120px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .big-stat-label {
+            font-size: 32px;
+            font-weight: 300;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 1px;
+        }
+
+        .big-stat-desc {
+            font-size: 18px;
+            margin-top: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a2e;
+            padding: 60px;
+            text-align: center;
+            color: white;
+        }
+
+        .footer h3 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .footer p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 18px 45px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+
+        .cta-button:hover {
+            background: #c0392b;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.5);
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffd93d 0%, #f39c12 100%);
+            padding: 3px 10px;
+            border-radius: 6px;
+            color: #1a1a2e;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 { font-size: 42px; }
+            .chart-title { font-size: 26px; }
+            .pie-chart { width: 280px; height: 280px; }
+            .pie-center { width: 180px; height: 180px; }
+            .pie-number { font-size: 56px; }
+            .big-stat-number { font-size: 80px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="infographic">
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header-content">
+                <div class="icon">🧠🤖💻💡</div>
+                <h1>Youth Mental Health Crisis</h1>
+                <p class="subtitle">A Global Emergency Demanding Immediate Action</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- CHART 1: PIE CHART -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">14% of Global Youth Are Suffering in Silence</h2>
+                    <p class="chart-subtitle">Mental health disorders affect approximately 166 million adolescents worldwide (ages 10-19), yet most remain undiagnosed and untreated</p>
+                </div>
+                
+                <div class="pie-container">
+                    <div class="pie-chart">
+                        <div class="pie-center">
+                            <div class="pie-number">1 in 7</div>
+                            <div class="pie-label">Teens Affected</div>
+                        </div>
+                    </div>
+                    
+                    <div class="pie-stats">
+                        <div class="stat-item">
+                            <div class="stat-color" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);"></div>
+                            <div class="stat-info">
+                                <div class="stat-title">14% Affected</div>
+                                <div class="stat-desc">Experience depression, anxiety, or behavioral disorders requiring professional intervention</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-color" style="background: linear-gradient(135deg, #ecf0f1 0%, #bdc3c7 100%);"></div>
+                            <div class="stat-info">
+                                <div class="stat-title">86% Currently Unaffected</div>
+                                <div class="stat-desc">No reported mental health conditions, but prevention and awareness remain critical</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <span class="source-tag">📊 Source: World Health Organization (WHO) 2023</span>
+            </div>
+
+            <!-- CHART 2: BAR GRAPH -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">Suicide: The Silent Killer of Our Youth</h2>
+                    <p class="chart-subtitle">Over 46,000 adolescents die by suicide annually—the leading cause of death among 15-19 year-olds globally</p>
+                </div>
+                
+                <div class="bar-chart">
+                    <div class="bar-item">
+                        <div class="bar-header">
+                            <span class="bar-name">🔴 Suicide</span>
+                            <span class="bar-value">46,000 deaths/year</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 100%; background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);">
+                                #1
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar-header">
+                            <span class="bar-name">🚗 Road Accidents</span>
+                            <span class="bar-value">35,000 deaths/year</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 76%; background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);">
+                                #2
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar-header">
+                            <span class="bar-name">⚔️ Violence</span>
+                            <span class="bar-value">28,000 deaths/year</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 61%; background: linear-gradient(90deg, #f39c12 0%, #e67e22 100%);">
+                                #3
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="bar-header">
+                            <span class="bar-name">🏥 Other Causes</span>
+                            <span class="bar-value">22,000 deaths/year</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 48%; background: linear-gradient(90deg, #27ae60 0%, #229954 100%);">
+                                #4
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <span class="source-tag">📊 Source: UNICEF 2024 - State of the World's Children Report</span>
+            </div>
+
+            <!-- CHART 3: ICON VISUALIZATION -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">The Devastating Treatment Gap</h2>
+                    <p class="chart-subtitle">Seven out of ten affected adolescents never receive professional help due to stigma, lack of resources, and inadequate mental health infrastructure</p>
+                </div>
+                
+                <div class="icon-grid">
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#e74c3c"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#e74c3c"/>
+                        <line x1="20" y1="95" x2="80" y2="95" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="50" y1="75" x2="50" y2="115" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#27ae60"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#27ae60"/>
+                        <polyline points="35,95 47,107 72,82" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#27ae60"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#27ae60"/>
+                        <polyline points="35,95 47,107 72,82" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="person-icon" viewBox="0 0 100 150">
+                        <circle cx="50" cy="35" r="22" fill="#27ae60"/>
+                        <rect x="33" y="62" width="34" height="65" rx="8" fill="#27ae60"/>
+                        <polyline points="35,95 47,107 72,82" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="icon-summary">
+                    <div class="summary-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                        <div class="summary-number">70%</div>
+                        <div class="summary-text">Receive NO Treatment</div>
+                    </div>
+                    <div class="summary-box" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%);">
+                        <div class="summary-number">30%</div>
+                        <div class="summary-text">Receive Treatment</div>
+                    </div>
+                </div>
+                
+                <span class="source-tag">📊 Source: The Lancet Psychiatry 2023</span>
+            </div>
+
+            <!-- CHART 4: SOCIAL MEDIA LINE GRAPH -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">Digital Addiction Fuels Depression Epidemic</h2>
+                    <p class="chart-subtitle">Teenagers spending 3+ hours daily on social media face double the risk of developing depression compared to limited users</p>
+                </div>
+                
+                <div class="line-graph-container">
+                    <svg viewBox="0 0 900 400" style="width: 100%; height: auto;">
+                        <!-- Grid -->
+                        <line x1="100" y1="50" x2="100" y2="320" stroke="#95a5a6" stroke-width="3"/>
+                        <line x1="100" y1="320" x2="850" y2="320" stroke="#95a5a6" stroke-width="3"/>
+                        
+                        <!-- Y-axis labels -->
+                        <text x="70" y="325" font-size="18" fill="#2c3e50" font-weight="600">0%</text>
+                        <text x="60" y="250" font-size="18" fill="#2c3e50" font-weight="600">10%</text>
+                        <text x="60" y="175" font-size="18" fill="#2c3e50" font-weight="600">20%</text>
+                        <text x="60" y="100" font-size="18" fill="#2c3e50" font-weight="600">30%</text>
+                        <text x="60" y="60" font-size="18" fill="#2c3e50" font-weight="600">40%</text>
+                        
+                        <!-- X-axis labels -->
+                        <text x="200" y="355" font-size="18" fill="#2c3e50" font-weight="700" text-anchor="middle">0-1 hours</text>
+                        <text x="400" y="355" font-size="18" fill="#2c3e50" font-weight="700" text-anchor="middle">1-3 hours</text>
+                        <text x="600" y="355" font-size="18" fill="#2c3e50" font-weight="700" text-anchor="middle">3-5 hours</text>
+                        <text x="800" y="355" font-size="18" fill="#2c3e50" font-weight="700" text-anchor="middle">5+ hours</text>
+                        
+                        <!-- Grid lines -->
+                        <line x1="100" y1="245" x2="850" y2="245" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        <line x1="100" y1="170" x2="850" y2="170" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        <line x1="100" y1="95" x2="850" y2="95" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        
+                        <!-- Line graph with gradient -->
+                        <defs>
+                            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+                                <stop offset="50%" style="stop-color:#e74c3c;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        
+                        <polyline points="200,290 400,245 600,135 800,65" 
+                                  fill="none" stroke="url(#lineGradient)" stroke-width="6" 
+                                  stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+                        
+                        <!-- Data points -->
+                        <circle cx="200" cy="290" r="12" fill="#3498db" stroke="white" stroke-width="3"/>
+                        <circle cx="400" cy="245" r="12" fill="#f39c12" stroke="white" stroke-width="3"/>
+                        <circle cx="600" cy="135" r="12" fill="#e74c3c" stroke="white" stroke-width="3"/>
+                        <circle cx="800" cy="65" r="12" fill="#c0392b" stroke="white" stroke-width="3"/>
+                        
+                        <!-- Values -->
+                        <text x="200" y="275" font-size="22" fill="#2c3e50" text-anchor="middle" font-weight="800">8%</text>
+                        <text x="400" y="230" font-size="22" fill="#2c3e50" text-anchor="middle" font-weight="800">15%</text>
+                        <text x="600" y="120" font-size="22" fill="#2c3e50" text-anchor="middle" font-weight="800">27%</text>
+                        <text x="800" y="50" font-size="22" fill="#c0392b" text-anchor="middle" font-weight="800">38%</text>
+                        
+                        <!-- Axis titles -->
+                        <text x="475" y="390" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="700">Daily Social Media Usage</text>
+                        <text x="30" y="190" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="700" transform="rotate(-90 30 190)">Depression Risk (%)</text>
+                    </svg>
+                </div>
+                
+                <span class="source-tag">📊 Source: National Institute of Mental Health (NIMH) 2023</span>
+            </div>
+
+            <!-- CHART 5: WORLD MAP -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">Global Mental Health Infrastructure Disparity</h2>
+                    <p class="chart-subtitle">Mental health service availability varies dramatically across continents, with Europe leading and Africa critically underserved</p>
+                </div>
+                
+                <div class="map-wrapper">
+                    <svg viewBox="0 0 1100 550" style="width: 100%; max-width: 1000px; height: auto; margin: 0 auto; display: block;">
+                        <defs>
+                            <filter id="shadow">
+                                <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+                            </filter>
+                        </defs>
+                        
+                        <!-- Europe -->
+                        <path d="M 520 140 L 620 135 L 640 175 L 625 210 L 585 225 L 545 215 L 525 185 Z" 
+                              fill="#27ae60" stroke="white" stroke-width="3" filter="url(#shadow)"/>
+                        <text x="580" y="185" font-size="20" fill="white" text-anchor="middle" font-weight="800">EUROPE</text>
+                        <text x="580" y="205" font-size="14" fill="white" text-anchor="middle" font-weight="600">18 per 100k</text>
+                        
+                        <!-- Americas -->
+                        <path d="M 220 160 L 300 150 L 330 220 L 350 310 L 320 380 L 270 395 L 230 370 L 200 300 L 210 230 Z" 
+                              fill="#52c41a" stroke="white" stroke-width="3" filter="url(#shadow)"/>
+                        <text x="275" y="270" font-size="20" fill="white" text-anchor="middle" font-weight="800">AMERICAS</text>
+                        <text x="275" y="290" font-size="14" fill="white" text-anchor="middle" font-weight="600">12 per 100k</text>
+                        
+                        <!-- Asia -->
+                        <path d="M 660 150 L 850 160 L 900 220 L 885 310 L 820 350 L 720 360 L 665 320 L 650 250 L 655 190 Z" 
+                              fill="#faad14" stroke="white" stroke-width="3" filter="url(#shadow)"/>
+                        <text x="760" y="260" font-size="20" fill="#2c3e50" text-anchor="middle" font-weight="800">ASIA</text>
+                        <text x="760" y="280" font-size="14" fill="#2c3e50" text-anchor="middle" font-weight="600">5 per 100k</text>
+                        
+                        <!-- Africa -->
+                        <path d="M 545 250 L 650 260 L 670 350 L 655 430 L 600 465 L 540 470 L 495 445 L 485 380 L 500 310 L 520 270 Z" 
+                              fill="#e74c3c" stroke="white" stroke-width="3" filter="url(#shadow)"/>
+                        <text x="575" y="370" font-size="20" fill="white" text-anchor="middle" font-weight="800">AFRICA</text>
+                        <text x="575" y="390" font-size="14" fill="white" text-anchor="middle" font-weight="600">2 per 100k</text>
+                        
+                        <!-- Oceania -->
+                        <path d="M 850 380 L 920 390 L 935 430 L 900 460 L 845 450 L 835 415 Z" 
+                              fill="#faad14" stroke="white" stroke-width="3" filter="url(#shadow)"/>
+                        <text x="885" y="425" font-size="16" fill="#2c3e50" text-anchor="middle" font-weight="800">OCEANIA</text>
+                    </svg>
+                    
+                    <div class="map-legend">
+                        <div class="legend-card">
+                            <div class="legend-color" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%);"></div>
+                            <div class="legend-title">🟢 High Support</div>
+                            <div class="legend-value">18 professionals per 100,000 youth</div>
+                        </div>
+                        <div class="legend-card">
+                            <div class="legend-color" style="background: linear-gradient(135deg, #52c41a 0%, #389e0d 100%);"></div>
+                            <div class="legend-title">🟢 Moderate Support</div>
+                            <div class="legend-value">12 professionals per 100,000 youth</div>
+                        </div>
+                        <div class="legend-card">
+                            <div class="legend-color" style="background: linear-gradient(135deg, #faad14 0%, #d48806 100%);"></div>
+                            <div class="legend-title">🟡 Limited Support</div>
+                            <div class="legend-value">5 professionals per 100,000 youth</div>
+                        </div>
+                        <div class="legend-card">
+                            <div class="legend-color" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);"></div>
+                            <div class="legend-title">🔴 Critical Shortage</div>
+                            <div class="legend-value">2 professionals per 100,000 youth</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <span class="source-tag">📊 Source: OECD Health Statistics 2024</span>
+            </div>
+
+            <!-- CHART 6: ANXIETY INCREASE -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <h2 class="chart-title">The Post-Pandemic Anxiety Surge</h2>
+                    <p class="chart-subtitle">Youth anxiety disorders increased by 25% from 2020 to 2024, with the COVID-19 pandemic triggering an unprecedented mental health crisis</p>
+                </div>
+                
+                <div class="line-graph-container">
+                    <svg viewBox="0 0 900 420" style="width: 100%; height: auto;">
+                        <!-- Grid -->
+                        <line x1="100" y1="50" x2="100" y2="340" stroke="#95a5a6" stroke-width="3"/>
+                        <line x1="100" y1="340" x2="850" y2="340" stroke="#95a5a6" stroke-width="3"/>
+                        
+                        <!-- Y-axis -->
+                        <text x="60" y="345" font-size="18" fill="#2c3e50" font-weight="600">20%</text>
+                        <text x="60" y="280" font-size="18" fill="#2c3e50" font-weight="600">23%</text>
+                        <text x="60" y="215" font-size="18" fill="#2c3e50" font-weight="600">26%</text>
+                        <text x="60" y="150" font-size="18" fill="#2c3e50" font-weight="600">29%</text>
+                        <text x="60" y="85" font-size="18" fill="#2c3e50" font-weight="600">32%</text>
+                        <text x="60" y="60" font-size="18" fill="#2c3e50" font-weight="600">35%</text>
+                        
+                        <!-- X-axis -->
+                        <text x="180" y="370" font-size="18" fill="#2c3e50" font-weight="700">2019</text>
+                        <text x="290" y="370" font-size="18" fill="#2c3e50" font-weight="700">2020</text>
+                        <text x="400" y="370" font-size="18" fill="#2c3e50" font-weight="700">2021</text>
+                        <text x="510" y="370" font-size="18" fill="#2c3e50" font-weight="700">2022</text>
+                        <text x="620" y="370" font-size="18" fill="#2c3e50" font-weight="700">2023</text>
+                        <text x="730" y="370" font-size="18" fill="#2c3e50" font-weight="700">2024</text>
+                        
+                        <!-- Grid lines -->
+                        <line x1="100" y1="275" x2="850" y2="275" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        <line x1="100" y1="210" x2="850" y2="210" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        <line x1="100" y1="145" x2="850" y2="145" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        <line x1="100" y1="80" x2="850" y2="80" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+                        
+                        <!-- Pandemic marker -->
+                        <line x1="290" y1="60" x2="290" y2="335" stroke="#f39c12" stroke-width="4" stroke-dasharray="10,8"/>
+                        <rect x="240" y="65" width="100" height="60" fill="#f39c12" rx="8"/>
+                        <text x="290" y="85" font-size="16" fill="white" text-anchor="middle" font-weight="800">COVID-19</text>
+                        <text x="290" y="105" font-size="14" fill="white" text-anchor="middle" font-weight="600">Pandemic</text>
+                        <text x="290" y="120" font-size="12" fill="white" text-anchor="middle" font-weight="600">Start</text>
+                        
+                        <!-- Area under curve -->
+                        <defs>
+                            <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.4" />
+                                <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:0.05" />
+                            </linearGradient>
+                        </defs>
+                        <polygon points="180,305 290,285 400,200 510,150 620,110 730,75 730,340 180,340" 
+                                 fill="url(#areaGradient)"/>
+                        
+                        <!-- Main line -->
+                        <polyline points="180,305 290,285 400,200 510,150 620,110 730,75" 
+                                  fill="none" stroke="#e74c3c" stroke-width="6" 
+                                  stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+                        
+                        <!-- Data points -->
+                        <circle cx="180" cy="305" r="10" fill="#3498db" stroke="white" stroke-width="3"/>
+                        <circle cx="290" cy="285" r="10" fill="#f39c12" stroke="white" stroke-width="3"/>
+                        <circle cx="400" cy="200" r="10" fill="#e67e22" stroke="white" stroke-width="3"/>
+                        <circle cx="510" cy="150" r="10" fill="#e74c3c" stroke="white" stroke-width="3"/>
+                        <circle cx="620" cy="110" r="10" fill="#c0392b" stroke="white" stroke-width="3"/>
+                        <circle cx="730" cy="75" r="10" fill="#a93226" stroke="white" stroke-width="3"/>
+                        
+                        <!-- Values -->
+                        <text x="180" y="325" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="800">21.5%</text>
+                        <text x="290" y="305" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="800">22.8%</text>
+                        <text x="400" y="190" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="800">25.4%</text>
+                        <text x="510" y="140" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="800">27.9%</text>
+                        <text x="620" y="100" font-size="18" fill="#2c3e50" text-anchor="middle" font-weight="800">30.2%</text>
+                        <text x="730" y="65" font-size="18" fill="#c0392b" text-anchor="middle" font-weight="800">31.9%</text>
+                        
+                        <!-- Increase indicator -->
+                        <path d="M 180 290 L 730 60" stroke="#27ae60" stroke-width="2" stroke-dasharray="5,5"/>
+                        <text x="450" y="170" font-size="24" fill="#27ae60" text-anchor="middle" font-weight="800">↗ +25% Increase</text>
+                        
+                        <!-- Axis titles -->
+                        <text x="475" y="405" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="700">Year</text>
+                        <text x="30" y="200" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="700" transform="rotate(-90 30 200)">Anxiety Prevalence (%)</text>
+                    </svg>
+                </div>
+                
+                <span class="source-tag">📊 Source: CDC Youth Risk Behavior Survey 2024</span>
+            </div>
+
+            <!-- CHART 7: BIG ECONOMIC STAT -->
+            <div class="chart-section">
+                <div class="big-stat-section">
+                    <div class="big-stat-number">$387B</div>
+                    <div class="big-stat-label">Annual Global Economic Burden</div>
+                    <div class="big-stat-desc">
+                        The total cost of youth mental health disorders includes $147 billion in direct treatment expenses 
+                        and $240 billion in lost productivity, projected to exceed $500 billion by 2030 without intervention
+                    </div>
+                </div>
+                <span class="source-tag">📊 Source: Statista Global Mental Health Economics Report 2024</span>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <h3>Early Intervention Saves Lives</h3>
+            <p>
+                This crisis demands <span class="highlight">immediate action</span> from governments, schools, families, and communities. 
+                By investing in mental health education, reducing stigma, expanding access to care, and supporting evidence-based 
+                prevention programs, we can reverse these devastating trends and build a healthier future for our youth.
+            </p>
+            <!-- compiled from WHO, UNICEF, CDC, NIMH, OECD, The Lancet, and Statista (2023-2024) -->
+            <p style="margin-top: 40px; font-size: 14px; opacity: 0.7;">
+                Data compiled from WHO, UNICEF, CDC, NIMH, OECD, The Lancet, and Statista (2023-2024)
+            </p>
+        </div>
+    </div>
+</body>
+</html>

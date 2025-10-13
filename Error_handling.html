@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Error handling n js</title>
+    </head>
+    <body>
+        <h1>Error handling in JS</h1>
+        <script>
+            // let a=x;
+            // console.log(x);
+            // try{
+            //     let a=x;
+            //     console.log(x);
+            // }catch(error){
+            //     console.log("Error is Solved "+ error.message)
+            // }finally{
+            //     console.log("Completed")
+            // }
+            age=15
+            function CheckAge(gender){
+                if(gender == "male"){
+                    throw new Error("You are Male");
+                }
+                return "You are female";
+            };
+            try{
+                console.log(CheckAge("male"));
+            }catch(error){
+                console.log("Error:"+error.message)
+            }finally{
+                console.log("Checking done!")
+            }
+        </script>
+    </body>
+</html>
