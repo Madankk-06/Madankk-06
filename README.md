@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Madankk-06/Madankk-06/main/MADAN_KK__1_.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/Madankk-06/Madankk-06/main/MADAN_KK.png" width="100%"/>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hi+there%2C+I'm+Madan+K.K+%F0%9F%91%8B;AI+%7C+Full+Stack+%7C+Generative+AI+Dev;MCA+Specialization+in+Generative+AI;Turning+Ideas+into+Intelligent+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
