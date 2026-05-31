@@ -16,7 +16,7 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="420" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif"/>
 
 ```python
 class MadanKK:
@@ -125,12 +125,13 @@ print(me.motto())
 
 <div align="center">
 
-![Commits](https://img.shields.io/badge/🔥_Commits-86_pts_·_B_Rank-0d1117?style=flat-square&labelColor=70A5FD&color=161b22)
-![Repositories](https://img.shields.io/badge/📁_Repositories-11_repos_·_B_Rank-0d1117?style=flat-square&labelColor=BF91F3&color=161b22)
-![MultiLanguage](https://img.shields.io/badge/🌐_MultiLanguage-7_langs_·_Secret-0d1117?style=flat-square&labelColor=38BDAE&color=161b22)
-![LongTimeUser](https://img.shields.io/badge/⏳_LongTimeUser-1_Year_·_Secret-0d1117?style=flat-square&labelColor=F78C6C&color=161b22)
-![NewUser](https://img.shields.io/badge/🌱_NewUser-After_2020_·_Secret-0d1117?style=flat-square&labelColor=C3E88D&color=161b22)
-![Followers](https://img.shields.io/badge/👥_Followers-1_follower_·_C_Rank-0d1117?style=flat-square&labelColor=FF5370&color=161b22)
+![MultiLanguage](https://img.shields.io/badge/🌐_Multi_Language_·_Rainbow_Lang_·_7_pts--%20-70A5FD?style=for-the-badge)
+![LongTimeUser](https://img.shields.io/badge/⏳_Long_Time_User_·_Village_Elder_·_1_Year--%20-BF91F3?style=for-the-badge)
+![NewUser](https://img.shields.io/badge/🌱_New_User_·_After_2020--%20-38BDAE?style=for-the-badge)
+
+![Commits](https://img.shields.io/badge/🔥_Commits_·_Middle_Committer_·_86_pts--%20-F78C6C?style=for-the-badge)
+![Repositories](https://img.shields.io/badge/📁_Repositories_·_Middle_Repo_Creator_·_11_repos--%20-C3E88D?style=for-the-badge)
+![Followers](https://img.shields.io/badge/👥_Followers_·_First_Friend_·_1_pt--%20-FF5370?style=for-the-badge)
 
 </div>
 
@@ -144,7 +145,7 @@ print(me.motto())
 
   > ![Sales](https://img.shields.io/badge/Sales-70A5FD?style=flat-square) ![CRM](https://img.shields.io/badge/CRM-BF91F3?style=flat-square) ![Analytics](https://img.shields.io/badge/Analytics-38BDAE?style=flat-square) ![Leadership](https://img.shields.io/badge/Leadership-F78C6C?style=flat-square)
 
-  - 📞 Handled end-to-end **business development and revenue generation** across a 7-month tenure driving consistent outreach targets
+  - 📞 Handled end-to-end **business development and revenue generation** across a 6-month tenure driving consistent outreach targets
   - 🤝 Managed **customer and client relationships**, maintaining high satisfaction rates through proactive communication and follow-ups
   - 📊 Applied **analytical and process skills** to streamline operations, improve coordination efficiency, and reduce turnaround time
   - 🎯 Demonstrated **leadership and soft skills** while collaborating with cross-functional teams on campaigns and outreach strategies
@@ -199,7 +200,7 @@ print(me.motto())
 
 | 🏆 | Achievement | Details |
 |:--:|:------------|:--------|
-| 🎓 | **MCA – Generative AI** | SGPA: **9.0** (Semester 1) — Alliance University, Bengaluru |
+| 🎓 | **MCA – Generative AI** | SGPA: **8.7** (Till Semester 2) — Alliance University, Bengaluru |
 | 🎓 | **BSc Computer Science** | CGPA: **7.6** — KPR College of Arts Science and Research |
 | 📜 | **Coursera Certified** | Prompt Engineering · Digital Marketing · Data Analysis · Front-End Dev · UI Design & Prototyping |
 | 🤖 | **Be10x AI Tools Workshop** | Hands-on training in cutting-edge AI productivity tools |
@@ -219,7 +220,7 @@ print(me.motto())
 
 | Degree | Institution | Year | Score |
 |:-------|:------------|:----:|:-----:|
-| 🎓 MCA – Generative AI | Alliance University, Bengaluru | 2025–2027 | SGPA: 9.0 |
+| 🎓 MCA – Generative AI | Alliance University, Bengaluru | 2025–2027 | SGPA: 8.7 |
 | 🎓 BSc Computer Science | KPR College of Arts Science & Research, Coimbatore | 2022–2025 | CGPA: 7.6 |
 | 📘 Higher Secondary (XII) | Literacy Mission Matric H.S School, Coimbatore | 2021–2022 | 78.3% |
 | 📗 Secondary (X) | Literacy Mission Matric H.S School, Coimbatore | 2019–2020 | 71.4% |
