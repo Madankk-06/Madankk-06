@@ -124,7 +124,14 @@ print(me.motto())
 ## 🏆 Trophy Wall
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Madankk-06&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophies"/>
+
+![Commits](https://img.shields.io/badge/🔥_Commits-86_pts_·_B_Rank-0d1117?style=flat-square&labelColor=70A5FD&color=161b22)
+![Repositories](https://img.shields.io/badge/📁_Repositories-11_repos_·_B_Rank-0d1117?style=flat-square&labelColor=BF91F3&color=161b22)
+![MultiLanguage](https://img.shields.io/badge/🌐_MultiLanguage-7_langs_·_Secret-0d1117?style=flat-square&labelColor=38BDAE&color=161b22)
+![LongTimeUser](https://img.shields.io/badge/⏳_LongTimeUser-1_Year_·_Secret-0d1117?style=flat-square&labelColor=F78C6C&color=161b22)
+![NewUser](https://img.shields.io/badge/🌱_NewUser-After_2020_·_Secret-0d1117?style=flat-square&labelColor=C3E88D&color=161b22)
+![Followers](https://img.shields.io/badge/👥_Followers-1_follower_·_C_Rank-0d1117?style=flat-square&labelColor=FF5370&color=161b22)
+
 </div>
 
 ---
