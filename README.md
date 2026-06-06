@@ -1,5 +1,5 @@
 <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Madan%20K.K&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=I%20Speak%20in%20Data%20and%20Think%20in%20AI&descAlignY=62&descSize=16" width="100%"/> -->
-<img src="https://raw.githubusercontent.com/Madankk-06/Madankk-06/main/Madan_KK.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/Madankk-06/Madankk-06/main/Madan_KK_Banner.png" width="100%"/>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hi+there%2C+I'm+Madan+K.K+%F0%9F%91%8B;AI+%7C+Full+Stack+%7C+Generative+AI+Dev;MCA+Specialization+in+Generative+AI;Turning+Ideas+into+Intelligent+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
