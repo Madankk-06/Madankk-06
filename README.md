@@ -16,7 +16,8 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" width="420" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif"/>
+
+<br/>
 
 ```python
 class MadanKK:
@@ -36,10 +37,9 @@ class MadanKK:
             "Cyber Security",
             "Generative AI Systems"
         ]
-        self.fun_fact     = (
-            "I once optimised a route algorithm so well, "
-            "even Google Maps got jealous 🗺️"
-        )
+        self.hobbies      = ["Travelling ✈️", "Drawing 🎨"]
+        self.languages    = ["English", "Tamil", "Hindi"]
+        self.fun_fact     = "I once optimised a route algorithm so well, even Google Maps got jealous 🗺️"
 
     def motto(self) -> str:
         return "Build smart. Design clean. Think AI. 🚀"
@@ -47,10 +47,10 @@ class MadanKK:
 me = MadanKK()
 print(me.motto())
 ```
-
 <br clear="right"/>
-
----
+<div align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" height="180"/>
+</div>
 
 ## 🛠️ Tech Stack
 
