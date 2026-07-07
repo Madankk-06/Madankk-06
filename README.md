@@ -9,7 +9,7 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Madankk-06&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views"/>
-  <img src="https://img.shields.io/badge/Followers-1-bf91f3?style=flat-square&logo=github&logoColor=white" alt="Followers"/>
+  <!-- <img src="https://img.shields.io/badge/Followers-1-bf91f3?style=flat-square&logo=github&logoColor=white" alt="Followers"/> -->
 </div>
 
 ---
