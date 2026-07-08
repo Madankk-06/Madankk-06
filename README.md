@@ -1,6 +1,5 @@
 <!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Madan%20K.K&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=I%20Speak%20in%20Data%20and%20Think%20in%20AI&descAlignY=62&descSize=16" width="100%"/> -->
 <img src="https://raw.githubusercontent.com/Madankk-06/Madankk-06/main/Madan_KK_Banner.png" width="100%"/>
-
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Hi+there%2C+I'm+Madan+K.K+%F0%9F%91%8B;AI+%7C+Full+Stack+%7C+Generative+AI+Dev;MCA+Specialization+in+Generative+AI;Turning+Ideas+into+Intelligent+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
@@ -12,13 +11,12 @@
 <a href="https://github.com/Madankk-06?tab=followers">
   <img src="https://img.shields.io/github/followers/Madankk-06?label=Followers&style=flat-square&color=bf91f3&logo=github&logoColor=white&cacheSeconds=60" alt="GitHub Followers"/>
 </a>
-
+<br/>
+  
 ---
 
 ## 🧑‍💻 About Me
-
-
-<br/>
+<div align="left">
 
 ```python
 class MadanKK:
@@ -48,13 +46,13 @@ class MadanKK:
 me = MadanKK()
 print(me.motto())
 ```
-<br clear="right"/>
+</div>
 <div align="center">
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" height="180"/>
 </div>
 
 ## 🛠️ Technical Stack
-
+<div align="left">
 ### 💻 Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -138,7 +136,7 @@ AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlec
 ![Google
 ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-0F766E?style=flat-square&logo=python&logoColor=white)
-
+</div>
 ---
 
 ## 📊 GitHub Stats
