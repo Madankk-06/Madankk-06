@@ -10,7 +10,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Madankk-06&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views"/>
 <a href="https://github.com/Madankk-06?tab=followers">
-  <img src="https://img.shields.io/github/followers/Madankk-06?label=Followers&style=flat-square&color=bf91f3&logo=github&logoColor=white&cacheSeconds=60&v=2" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/followers/Madankk-06?label=Followers&style=flat-square&color=bf91f3&logo=github&logoColor=white&cacheSeconds=60" alt="GitHub Followers"/>
 </a>
 
 ---
