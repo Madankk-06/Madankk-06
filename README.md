@@ -52,6 +52,7 @@ print(me.motto())
 
 ## 🛠️ Technical Stack
 <div align="left">
+  
 ### 💻 Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
