@@ -110,7 +110,6 @@ Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=g
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![GitHub
 
 ### 🔧 Developer Tools
 
@@ -181,7 +180,7 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
 
 ---
 
-## 💼 Work Experience
+## 💼 Internship Experience
 
 <details>
   <summary><b>🏢 FacePrep Campus — Inside Sales Associate (ISA) | Nov 2024 – May 2025 | Coimbatore, India</b></summary>
