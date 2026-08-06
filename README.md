@@ -301,7 +301,7 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
 <div align="center">
   <i>✈️ Traveller · 🎨 Artist · 🌐 Trilingual (English, Tamil, Hindi) · 💡 Eternal Learner</i>
   <br/><br/>
-  <b>"I Speak in Data and Think in AI"</b>
+  <b>"I Speak in Data and Think like AI"</b>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
