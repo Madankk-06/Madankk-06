@@ -141,15 +141,14 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Madankk-06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Madankk-06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Madankk-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Madankk-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
 </div>
 
 ---
 
 ## 🔥 Streak Stats
-
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Madankk-06&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak"/>
 </div>
@@ -220,40 +219,6 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
   - ✏️ Strengthened **content writing proficiency**, adapting tone and format for varied audiences and college communications
 
 </details>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Stack | Highlights |
-|:--------|:------|:-----------|
-| [🏠 MK-Homes Smart UI](https://github.com/Madankk-06) | `HTML` `CSS` `JavaScript` `Figma` | Smart home web app with AI bot integration, real-time power monitoring, per-room appliance control, and full device management dashboard |
-| [🗺️ Short Route Optimization](https://github.com/Madankk-06) | `Python` `HTML` `CSS` `JavaScript` `Google Maps API` | Route optimization engine using algorithmic path-finding to significantly reduce travel time and cost, with live Google Maps visualization |
-| [🍳 Recipe Recommendation Agent](https://github.com/Madankk-06) | `React.js` `HTML` `CSS` `JavaScript` `Canva` | Real-time AI recipe agent that matches available ingredients to multi-cuisine dishes, generates a smart shopping list, and includes QR code agreement flow |
-
-</div>
-
----
-
-## 🏅 Achievements & Certifications
-
-<div align="center">
-
-| 🏆 | Achievement | Details |
-|:--:|:------------|:--------|
-| 🎓 | **MCA – Generative AI** | SGPA: **8.7** (Till Semester 2) — Alliance University, Bengaluru |
-| 🎓 | **BSc Computer Science** | CGPA: **7.6** — KPR College of Arts Science and Research |
-| 📜 | **Coursera Certified** | Prompt Engineering · Digital Marketing · Data Analysis · Front-End Dev · UI Design & Prototyping |
-| 🤖 | **Be10x AI Tools Workshop** | Hands-on training in cutting-edge AI productivity tools |
-| 🎨 | **L&T EduTech Certified** | UI & UX Developer Certification |
-| 🌐 | **Great Learning** | Android App Development · UI & UX Design |
-| 🇮🇳 | **Hindi Language Exams** | 3 examinations — Dakshin Bharat Hindi Prachar Sabha |
-| 💻 | **LeetCode Active** | [@madankk-04122004](https://leetcode.com/u/madankk-04122004/) — Consistent problem-solver |
-| 🌟 | **HackerRank Profile** | [madankk2004](https://hackerrank.com/profile/madankk2004) — Coding challenges & skill badges |
-
-</div>
 
 ---
 
