@@ -160,13 +160,11 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
 
 <div align="center">
 
-![MultiLanguage](https://img.shields.io/badge/🌐_Multi_Language_·_Rainbow_Lang_·_7_pts--%20-70A5FD?style=for-the-badge)
-![LongTimeUser](https://img.shields.io/badge/⏳_Long_Time_User_·_Village_Elder_·_1_Year--%20-BF91F3?style=for-the-badge)
-![NewUser](https://img.shields.io/badge/🌱_New_User_·_After_2020--%20-38BDAE?style=for-the-badge)
-
-![Commits](https://img.shields.io/badge/🔥_Commits_·_Middle_Committer_·_86_pts--%20-F78C6C?style=for-the-badge)
-![Repositories](https://img.shields.io/badge/📁_Repositories_·_Middle_Repo_Creator_·_11_repos--%20-C3E88D?style=for-the-badge)
-![Followers](https://img.shields.io/badge/👥_Followers_·_First_Friend_·_1_pt--%20-FF5370?style=for-the-badge)
+  <img src="https://img.shields.io/github/stars/Madankk-06?style=for-the-badge&logo=github&label=Total%20Stars&color=BF91F3" alt="Live Stars"/>
+  <img src="https://img.shields.io/github/commit-activity/y/Madankk-06/contribute-1?style=for-the-badge&logo=git&label=Yearly%20Activity&color=38BDAE" alt="Live Activity"/>
+  <br/>
+  <img src="https://img.shields.io/badge/🔥_Commits_·_1,400+_Commits--%20-F78C6C?style=for-the-badge" alt="Commits"/>
+  <img src="https://img.shields.io/badge/📁_Repositories_·_20+_Repos--%20-C3E88D?style=for-the-badge" alt="Repos"/>
 
 </div>
 
