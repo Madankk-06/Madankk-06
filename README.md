@@ -219,7 +219,7 @@ ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=googl
 
 | Degree | Institution | Year | Score |
 |:-------|:------------|:----:|:-----:|
-| 🎓 MCA – Generative AI | Alliance University, Bengaluru | 2025–2027 | SGPA: 8.7 |
+| 🎓 MCA – Generative AI | Alliance University, Bengaluru | 2025–2027 | SGPA: 9.0 |
 | 🎓 BSc Computer Science | KPR College of Arts Science & Research, Coimbatore | 2022–2025 | CGPA: 7.6 |
 | 📘 Higher Secondary (XII) | Literacy Mission Matric H.S School, Coimbatore | 2021–2022 | 78.3% |
 | 📗 Secondary (X) | Literacy Mission Matric H.S School, Coimbatore | 2019–2020 | 71.4% |
