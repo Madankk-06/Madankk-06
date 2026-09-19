@@ -83,75 +83,6 @@ print(me.motto())
 
 ---
 
-## 💼 Internship Experience
-
-<details>
-  <summary><b>🏢 FacePrep Campus — Inside Sales Associate (ISA) | Nov 2024 – May 2025 | Coimbatore, India</b></summary>
-  <br/>
-
-  > ![Sales](https://img.shields.io/badge/Sales-70A5FD?style=flat-square) ![CRM](https://img.shields.io/badge/CRM-BF91F3?style=flat-square) ![Analytics](https://img.shields.io/badge/Analytics-38BDAE?style=flat-square) ![Leadership](https://img.shields.io/badge/Leadership-F78C6C?style=flat-square)
-
-  - 📞 Handled end-to-end **business development and revenue generation** across a 6-month tenure driving consistent outreach targets
-  - 🤝 Managed **customer and client relationships**, maintaining high satisfaction rates through proactive communication and follow-ups
-  - 📊 Applied **analytical and process skills** to streamline operations, improve coordination efficiency, and reduce turnaround time
-  - 🎯 Demonstrated **leadership and soft skills** while collaborating with cross-functional teams on campaigns and outreach strategies
-
-</details>
-
-<details>
-  <summary><b>🏢 L&T EduTech — UI & UX Developer | Apr 2023 – Jun 2023 | Online</b></summary>
-  <br/>
-
-  > ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![UI Design](https://img.shields.io/badge/UI%20Design-70A5FD?style=flat-square) ![UX Research](https://img.shields.io/badge/UX%20Research-BF91F3?style=flat-square) ![Prototyping](https://img.shields.io/badge/Prototyping-38BDAE?style=flat-square)
-
-  - 🎨 Developed **UI design skills** by building high-fidelity prototypes and wireframes aligned with real-world industry standards
-  - 🔍 Conducted **UX research** to understand user personas, pain points, and design solutions grounded in human-centred principles
-  - 🛠️ Mastered **process and strategic skills** for product design lifecycle — from ideation to prototype delivery
-  - 💻 Gained hands-on experience with **design tools** including Figma, producing polished, accessible interface layouts
-
-</details>
-
-<details>
-  <summary><b>✍️ Content Creator — Digital Newspaper | Mar 2023 – Dec 2023 | Coimbatore, India</b></summary>
-  <br/>
-
-  > ![Content Writing](https://img.shields.io/badge/Content%20Writing-70A5FD?style=flat-square) ![Data Collection](https://img.shields.io/badge/Data%20Collection-BF91F3?style=flat-square) ![Media](https://img.shields.io/badge/Digital%20Media-38BDAE?style=flat-square)
-
-  - 📰 Published **daily achievement updates** for students and faculty, building consistent readership and institutional visibility
-  - 🔎 Performed rigorous **data collection and verification** to ensure accuracy and credibility of all published content
-  - 📱 Leveraged **digital and media skills** to optimise content presentation across platforms for maximum engagement
-  - ✏️ Strengthened **content writing proficiency**, adapting tone and format for varied audiences and college communications
-
-</details>
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-| Degree | Institution | Year | Score |
-|:-------|:------------|:----:|:-----:|
-| 🎓 MCA – Generative AI | Alliance University, Bengaluru | 2025–2027 | SGPA: 9.0 |
-| 🎓 BSc Computer Science | KPR College of Arts Science & Research, Coimbatore | 2022–2025 | CGPA: 7.6 |
-| 📘 Higher Secondary (XII) | Literacy Mission Matric H.S School, Coimbatore | 2021–2022 | 78.3% |
-| 📗 Secondary (X) | Literacy Mission Matric H.S School, Coimbatore | 2019–2020 | 71.4% |
-
-</div>
-
----
-
-## 🌱 Currently Learning
-
-```
-🧱 Generative AI       →  LLMs · RAG · Prompt Engineering · Fine-tuning
-⚛️  Quantum Computing   →  Qubits · Quantum Gates · Grover's Algorithm
-🔐 Cyber Security      →  Ethical Hacking · Threat Modelling · OWASP Top 10
-☁️  Cloud & DevOps      →  AWS Advanced · CI/CD · Docker · Serverless
-🤖 ML & Deep Learning  →  Neural Networks · Transformers · Model Evaluation
-```
-
----
 
 ## 🌐 Connect With Me
 
@@ -168,9 +99,9 @@ print(me.motto())
 ---
 
 <div align="center">
-  <i>✈️ Traveller · 🎨 Artist · 🌐 Trilingual (English, Tamil, Hindi) · 💡 Eternal Learner</i>
-  <br/><br/>
-  <b>"I Speak in Data and Think like AI"</b>
+  
+  # <b>"I SPEAK IN DATA AND THINK LIKE AI"</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+
