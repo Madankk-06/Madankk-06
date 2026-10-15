@@ -75,7 +75,7 @@ print(me.motto())
 
 ---
 
-## 🎖️ GitHub Achievements
+## 🎖️ GitHub Achievement Badges
 
 <div align="center">
 <a href="https://github.com/Madankk-06?tab=achievements">
