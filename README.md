@@ -79,9 +79,9 @@ print(me.motto())
 
 <div align="center">
 <a href="https://github.com/Madankk-06?tab=achievements">
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/blob/main/images/quickdraw-default.png?raw=true" width="80" alt="Quickdraw" title="Quickdraw"/>
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/blob/main/images/yolo-default.png?raw=true" width="80" alt="YOLO" title="YOLO"/>
-  <img src="https://github.com/Schweinepriester/github-profile-achievements/blob/main/images/pull-shark-default.png?raw=true" width="80" alt="Pull Shark" title="Pull Shark"/>
+  <img src="assets/achievements/quickdraw.png" width="80" alt="Quickdraw" title="Quickdraw"/>
+  <img src="assets/achievements/yolo.png" width="80" alt="YOLO" title="YOLO"/>
+  <!-- <img src="assets/achievements/pull-shark.png" width="80" alt="Pull Shark" title="Pull Shark"/> -->
 </a>
 </div>
 
