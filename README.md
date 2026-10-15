@@ -7,7 +7,7 @@
 <br/>
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=Madankk-06&label=PROFILE+VIEWS&style=for-the-badge&logo=github&color=70A5FD" alt="Profile Views"/><a href="https://github.com/Madankk-06?tab=followers">
+<img src="https://hits.sh/github.com/Madankk-06.svg?label=PROFILE%20VIEWS&style=for-the-badge&color=70a5fd&logo=github" alt="Profile Views"/><a href="https://github.com/Madankk-06?tab=followers">
   <img src="https://img.shields.io/github/followers/Madankk-06?style=for-the-badge&logo=github&label=Followers&color=bf91f3&cacheSeconds=30" alt="GitHub Followers"/>
 </a>
 <br/>
