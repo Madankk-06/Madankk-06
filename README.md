@@ -81,7 +81,8 @@ print(me.motto())
 <a href="https://github.com/Madankk-06?tab=achievements">
   <img src="assets/achievements/quickdraw.png" width="80" alt="Quickdraw" title="Quickdraw"/>
   <img src="assets/achievements/yolo.png" width="80" alt="YOLO" title="YOLO"/>
-  <!-- <img src="assets/achievements/pull-shark.png" width="80" alt="Pull Shark" title="Pull Shark"/> -->
+  <img src="assets/achievements/pull-shark.png" width="80" alt="Pull Shark" title="Pull Shark"/>
+  <!-- <img src="assets/achievements/pair-extraordinaire.png" width="80" alt="Pair Extraordinaire" title="Pair Extraordinaire"/> -->
 </a>
 </div>
 
