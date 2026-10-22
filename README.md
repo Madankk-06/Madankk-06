@@ -69,7 +69,7 @@ print(me.motto())
   <img src="https://img.shields.io/github/commit-activity/y/Madankk-06/contribute-1?style=for-the-badge&logo=git&label=Yearly%20Activity&color=38BDAE" alt="Live Activity"/>
   <br/>
   <img src="https://img.shields.io/badge/🔥_Commits_·_1,400+_Commits--%20-F78C6C?style=for-the-badge" alt="Commits"/>
-  <img src="https://img.shields.io/badge/📁_Repositories_·_20+_Repos--%20-C3E88D?style=for-the-badge" alt="Repos"/>
+  <img src="https://img.shields.io/badge/📁_Repositories_·_39+_Repos--%20-C3E88D?style=for-the-badge" alt="Repos"/>
 
 </div>
 
