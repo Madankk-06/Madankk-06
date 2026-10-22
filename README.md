@@ -54,7 +54,7 @@ print(me.motto())
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Madankk-06&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
+  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Madankk-06&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/> -->
   &nbsp;
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madankk-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
   <br/><br/>
@@ -63,21 +63,6 @@ print(me.motto())
 
 ---
 
-## 🏆 Activity & Contributions
-
-<div align="center">
-  <img src="https://img.shields.io/github/stars/Madankk-06?style=for-the-badge&logo=github&label=Total%20Stars&color=BF91F3" alt="Live Stars"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FMadankk-06&color=C3E88D" alt="Live Repos"/>
-  <img src="https://img.shields.io/github/followers/Madankk-06?style=for-the-badge&logo=github&label=Followers&color=70A5FD" alt="Live Followers"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/70A5FD/Madankk-06" alt="Madan's Contribution Graph" width="100%"/>
-</div>
-
----
 
 ## 🎖️ GitHub Achievement Badges
 
