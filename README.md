@@ -54,23 +54,27 @@ print(me.motto())
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Madankk-06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Madankk-06&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Madankk-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madankk-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
+  <br/><br/>
+  <img height="170em" src="https://streak-stats.demolab.com?user=Madankk-06&theme=tokyonight&hide_border=true&border_radius=10&background=0d1117&stroke=70a5fd&ring=70a5fd&fire=70a5fd&currStreakLabel=70a5fd" alt="GitHub Streak"/>
 </div>
 
 ---
 
-## 🏆 Trophy Wall
+## 🏆 Activity & Contributions
 
 <div align="center">
-
   <img src="https://img.shields.io/github/stars/Madankk-06?style=for-the-badge&logo=github&label=Total%20Stars&color=BF91F3" alt="Live Stars"/>
-  <img src="https://img.shields.io/github/commit-activity/y/Madankk-06/contribute-1?style=for-the-badge&logo=git&label=Yearly%20Activity&color=38BDAE" alt="Live Activity"/>
-  <br/>
-  <img src="https://img.shields.io/badge/🔥_Commits_·_1,400+_Commits--%20-F78C6C?style=for-the-badge" alt="Commits"/>
-  <img src="https://img.shields.io/badge/📁_Repositories_·_39+_Repos--%20-C3E88D?style=for-the-badge" alt="Repos"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FMadankk-06&color=C3E88D" alt="Live Repos"/>
+  <img src="https://img.shields.io/github/followers/Madankk-06?style=for-the-badge&logo=github&label=Followers&color=70A5FD" alt="Live Followers"/>
+</div>
 
+<br/>
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/70A5FD/Madankk-06" alt="Madan's Contribution Graph" width="100%"/>
 </div>
 
 ---
