@@ -23,6 +23,7 @@ class MadanKK:
         self.name         = "Madan K.K"
         self.location     = "Coimbatore, Tamil Nadu, India 🇮🇳"
         self.degree       = "MCA – Generative AI @ Alliance University"
+        self.portfolio    = "https://madankk.is-a.dev"
         self.email        = "madankk2004@gmail.com"
         self.stack        = [
             "Python", "JavaScript", "Java", "C++",
@@ -80,6 +81,7 @@ print(me.motto())
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-madankk.is--a.dev-70A5FD?style=flat-square&logo=googlechrome&logoColor=white)](https://madankk.is-a.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/madankk04122004)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Madankk-06)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/madankk-04122004/)
